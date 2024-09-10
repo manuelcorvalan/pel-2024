@@ -1,0 +1,15 @@
+version: '3'
+services:
+
+  #Nginx Service
+  parafina-webapp-2023:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: webapp-parafina-2023
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "8010:80"
+    volumes:
+      - ./:/app    

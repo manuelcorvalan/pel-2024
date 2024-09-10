@@ -1,0 +1,31 @@
+{
+  "name": "webapp-2023",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@gobdigital-cl/gob.cl": "^3.0.10",
+    "@mapbox/mapbox-gl-geocoder": "^5.0.2",
+    "@popperjs/core": "^2.11.8",
+    "axios": "^1.6.8",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "mapbox-gl": "^3.3.0",
+    "vue": "^3.2.47",
+    "vue-browser-geolocation": "^1.8.0",
+    "vue-full-loading": "^1.2.1",
+    "vue-mobile-detection": "^2.0.1",
+    "vue-router": "^4.1.6",
+    "vue3-loading-overlay": "^0.0.0",
+    "vue-mobile-detection": "^2.0.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "vite": "^4.3.2"
+  }
+}

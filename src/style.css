@@ -1,0 +1,21 @@
+footer{
+    min-height: 69px !important;
+    padding: 0;
+    box-shadow: 0 0 0 2px #e3e5ef;
+}
+
+footer a{
+    height: 100% !important;
+}
+
+.list-group {
+    background-color: #0a132d;
+}
+
+.list-group-item{
+    background-color: #0a132d;    
+}
+
+.list-inline li:not(:last-child)::after{
+    content:"" !important
+}
